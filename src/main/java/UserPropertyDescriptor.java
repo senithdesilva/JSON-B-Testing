@@ -1,7 +1,4 @@
-import java.util.Date;
-
-public class User {
-
+public class UserPropertyDescriptor {
     public int getId() {
         return id;
     }
