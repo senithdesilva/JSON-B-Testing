@@ -1,10 +1,10 @@
 public class CustomerPropertyDescriptor {
-    private String customerID;
+    private int customerID;
     private String customerName;
     private String email;
     private boolean isPrimeUser;
 
-    public CustomerPropertyDescriptor(String customerID, String customerName, String email, boolean isPrimeUser) {
+    public CustomerPropertyDescriptor(int customerID, String customerName, String email, boolean isPrimeUser) {
         this.customerID = customerID;
         this.customerName = customerName;
         this.email = email;
@@ -13,11 +13,11 @@ public class CustomerPropertyDescriptor {
 
     public CustomerPropertyDescriptor() {}
 
-    public String getCustomerID() {
+    public int getCustomerID() {
         return customerID;
     }
 
-    public void setCustomerID(String customerID) {
+    public void setCustomerID(int customerID) {
         this.customerID = customerID;
     }
 
